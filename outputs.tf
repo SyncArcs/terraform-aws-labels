@@ -32,3 +32,8 @@ output "label_order" {
   value       = local.label_order
   description = "Normalized Tag map."
 }
+
+output "managedby" {
+  value       = local.managedby
+  description = "Normalized Tag map."
+}

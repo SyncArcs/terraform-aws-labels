@@ -13,3 +13,7 @@ output "name" {
   description = "Normalized Tag map."
 }
 
+output "managedby" {
+  value       = module.labels.managedby
+  description = "Normalized Tag map."
+}

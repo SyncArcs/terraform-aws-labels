@@ -16,7 +16,7 @@ locals {
 
   name        = var.enabled == true ? lower(format("%v", var.name)) : ""
   environment = var.enabled == true ? lower(format("%v", var.environment)) : ""
-  managedby   = var.enabled == true ? lower(format("%v", var.managedby)) : ""
+  managedby   = var.enabled == true ? replace(title(format("%v", var.managedby)), "syncarcs", "SyncArcs") : ""
   repository  = var.enabled == true ? lower(format("%v", var.repository)) : ""
   attributes  = var.enabled == true ? lower(format("%v", join(var.delimiter, compact(var.attributes)))) : ""
 

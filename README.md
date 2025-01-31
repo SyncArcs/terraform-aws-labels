@@ -86,6 +86,7 @@ No resources.
 | <a name="output_environment"></a> [environment](#output\_environment) | Normalized environment |
 | <a name="output_id"></a> [id](#output\_id) | Disambiguated ID. |
 | <a name="output_label_order"></a> [label\_order](#output\_label\_order) | Normalized Tag map. |
+| <a name="output_managedby"></a> [managedby](#output\_managedby) | Normalized Tag map. |
 | <a name="output_name"></a> [name](#output\_name) | Normalized name. |
 | <a name="output_repository"></a> [repository](#output\_repository) | Terraform current module repo |
 | <a name="output_tags"></a> [tags](#output\_tags) | Normalized Tag map. |
